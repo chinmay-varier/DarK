@@ -42,9 +42,4 @@ def restart():
     os.system("shutdown /r")
 
 def Guide(master):
-    guideWin = Toplevel(master)
-    guideWin.geometry("1300x600")
-
-    heading1 = Label(guideWin, text="For Optimizations 1-6: ")
-    heading1.pack()
-
+    os.system("start https://chinmay-varier.github.io/DarK-App-Guide/")
