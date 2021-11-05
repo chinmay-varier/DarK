@@ -8,7 +8,7 @@ added_files = [
     ('C:/Users/chinm/Desktop/DarK/icons', 'icons')
 ]
 
-a = Analysis(['main.py'],
+a = Analysis(['DarK.py'],
              pathex=[],
              binaries=[],
              datas=added_files,

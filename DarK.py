@@ -8,6 +8,8 @@ from buttons import (cpuButton, powerSavingForUsb,
     nvidiaPI, restart
 )
 
+"""Code By Chinmay Varier"""
+
 ROOT = Tk()
 ROOT.geometry("1600x900")
 ROOT.iconbitmap(os.path.dirname(__file__) + r"\icons\icon.ico")

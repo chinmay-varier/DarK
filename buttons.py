@@ -19,15 +19,15 @@ def disableDiagnosticServices():
     os.system('"' + dirc+ '"')
 
 def disableBluetooth():
-    dirc = drc + "\OPTIONAL Disable Bluetooth Services.reg"
+    dirc = drc + "\Disable Bluetooth Services.reg"
     os.system('"' + dirc + '"')
 
 def disableMaps():
-    dirc = drc + "\OPTIONAL Disable Download Maps Manager.reg"
+    dirc = drc + "\Disable Download Maps Manager.reg"
     os.system('"' + dirc + '"')
 
 def disableXbox():
-    dirc = drc + "\OPTIONAL Disable Xbox Services.reg"
+    dirc = drc + "\Disable Xbox Services.reg"
     os.system('"' + dirc + '"')
 
 def msiModeUtility():
@@ -42,9 +42,4 @@ def restart():
     os.system("shutdown /r")
 
 def Guide(master):
-    guideWin = Toplevel(master)
-    guideWin.geometry("1300x600")
-
-    heading1 = Label(guideWin, text="For Optimizations 1-6: ")
-    heading1.pack()
-
+    os.system("start https://chinmay-varier.github.io/DarK-App-Guide/")
