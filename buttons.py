@@ -4,6 +4,7 @@ from tkinter import *
 import ctypes, sys
 
 drc = os.getcwd() + "\Reg"
+drc2 = drc + "\Revert"
 
 def cpuButton():
     directory = drc + "\CPU Optimizations.reg"
@@ -40,6 +41,15 @@ def nvidiaPI():
 
 def restart():
     os.system("shutdown /r")
+
+def disableWinDef():
+    dirc = drc + "\Disable Windows Defender.reg"
+    os.system('"' + dirc + '"')
+
+def Enable(req):
+    dirc = drc2 + "\Enable " + req + ".reg"
+    print(dirc)
+    os.system('"' + dirc + '"')
 
 def Guide(master):
     os.system("start https://chinmay-varier.github.io/DarK-App-Guide/")
